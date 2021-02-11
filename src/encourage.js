@@ -34,11 +34,6 @@ module.exports = (client) => {
     const shuffledEncouragement =
       encouragement[Math.floor(Math.random() * encouragement.length)];
 
-    if (message.content.includes("depressed" || "Depressed")) {
-      console.log(`${message.author.username} : ${message.content}`);
-      return message.reply("Fuck off!");
-    }
-
     for (let i = 0; i < sadWordsLen; i++) {
       if (message.content.includes(sadWords[i])) {
         console.log(`${message.author.username} : ${message.content}`);
