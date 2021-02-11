@@ -94,4 +94,4 @@ client.on("ready", async () => {
   translate(client);
 });
 
-client.login(process.env.DISCORDJS_BOT_TOKEN);
+client.login(process.env.TOKEN);
