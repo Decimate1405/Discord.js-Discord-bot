@@ -21,7 +21,7 @@ const bulkDel = require("./src/bulkDel");
 const status = require("./src/status");
 const createTextChannel = require("./src/createTextChannel");
 const createVoiceChannel = require("./src/createVoiceChannel");
-const leveling = require("./src/leveling");
+//const leveling = require("./src/leveling");
 const messageReactions = require("./src/messageReactions");
 const mcStat = require("./src/mcStat");
 const qHelp = require("./src/qHelp");
@@ -67,7 +67,7 @@ client.on("ready", async () => {
   status(client);
   createTextChannel(client);
   createVoiceChannel(client);
-  leveling(client);
+  //leveling(client);
   messageReactions(client);
   mcStat(client);
   qHelp(client);
