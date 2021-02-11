@@ -5,9 +5,7 @@ const { MessageAttachment } = require("discord.js");
 
 module.exports = (client) => {
   // MongoDB for Leveling system
-  Levels.setURL(
-    "mongodb+srv://decimat3:mmoIF5Yy6FPRIklS@bigbois.wrmqq.mongodb.net/xpLevelData"
-  );
+  Levels.setURL("add your mondoDb URI here");
 
   // Leveling up system
   client.on("message", async (message) => {
