@@ -29,18 +29,7 @@ module.exports = (client) => {
       "Don't be sad, be glad",
       "You're still alive?",
       "You'll be okay",
-      "Let's talk",
-      "Atleast you're not dead",
-      "Would you like me to take you out of your misery",
-      "Jerk off a bit :)",
-      "Atleast you're not a History Major",
-      "Go hug your mom",
-      "I like you",
-      "I appreciate you",
-      "I love you",
-      "Go fuck yourself you twat",
-      "I ain't here for your therapy",
-      "I'm sad too knowing that you still live",
+      "Let's talk"
     ];
     const shuffledEncouragement =
       encouragement[Math.floor(Math.random() * encouragement.length)];
